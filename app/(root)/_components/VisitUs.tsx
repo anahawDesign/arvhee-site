@@ -1,4 +1,4 @@
-import { Card, CardHeader, CardFooter, CardTitle } from "@/components/ui/card";
+import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { MapPin, Clock, Phone, Instagram, Facebook } from "lucide-react";
