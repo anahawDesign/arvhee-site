@@ -8,7 +8,7 @@ const Footer = () => (
   <footer className="bg-[var(--color-background)] text-[var(--color-accent)] py-12 px-4 border-t-2 border-[var(--color-secondary)]">
     <div className="container mx-auto">
       <div className="grid md:grid-cols-4 gap-8">
-        <div>
+        <div className="max-w-xs mx-auto">
           <div className="flex items-center space-x-2 mb-4">
             <div className="flex items-center space-x-2">
               <Image
@@ -27,7 +27,7 @@ const Footer = () => (
           </p>
         </div>
 
-        <div>
+        <div className="max-w-xs  mx-auto w-full">
           <h5 className="font-semibold mb-4">Quick Links</h5>
           <ul className="space-y-2 text-[var(--color-text)]">
             <li>
@@ -56,7 +56,7 @@ const Footer = () => (
           </ul>
         </div>
 
-        <div>
+        <div className="max-w-xs  mx-auto w-full">
           <h5 className="font-semibold mb-4">Categories</h5>
           <ul className="space-y-2 text-[var(--color-text)]">
             <li>
@@ -82,11 +82,11 @@ const Footer = () => (
           </ul>
         </div>
 
-        <div>
+        <div className="max-w-xs  mx-auto w-full">
           <h5 className="font-semibold mb-4">Connect</h5>
           <div className="flex space-x-4">
             <a
-              href="https://www.instagram.com/arvhee_bakes/?hl=en"
+              href="https://www.facebook.com/people/ArVhee-Bakes/100063446330479/?locale=cs_CZ"
               target="_blank"
               rel="noopener noreferrer"
             >

@@ -15,7 +15,7 @@ const VisitUs = () => (
         </p>
       </div>
 
-      <div className="grid md:grid-cols-2 gap-12">
+      <div className="grid md:grid-cols-2 gap-6">
         <div>
           <Card className="p-6 bg-white">
             <div className="space-y-6">

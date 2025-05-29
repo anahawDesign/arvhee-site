@@ -5,7 +5,7 @@ const AboutUs = () => (
   <section id="about" className="py-16 px-4 bg-[var(--color-secondary)]/50">
     <div className="container mx-auto">
       <div className="grid md:grid-cols-2 gap-12 items-center">
-        <div>
+        <div className="md:ml-5">
           <h3 className="text-3xl md:text-4xl font-bold text-[var(--color-accent)] mb-6">
             A Slice of Home in London
           </h3>
@@ -37,7 +37,7 @@ const AboutUs = () => (
             alt="Filipino bakery interior"
             width={500}
             height={400}
-            className="rounded-lg shadow-lg"
+            className="rounded-lg shadow-lg mx-auto"
           />
           <div className="absolute -bottom-4 -right-4 bg-[var(--color-secondary)] p-4 rounded-lg shadow-lg">
             <p className="text-[var(--color-accent)] font-semibold">
