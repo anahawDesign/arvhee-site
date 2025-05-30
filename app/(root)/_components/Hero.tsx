@@ -2,7 +2,6 @@
 
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
-import { anton, geistMono, geistSans, nunito } from "../layout";
 
 const Hero = () => (
   <section

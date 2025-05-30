@@ -4,23 +4,23 @@ import "../globals.css";
 import Navbar from "./_navbar/Navbar";
 import Footer from "./_components/Footer";
 
-export const geistSans = Geist({
+const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
 
-export const geistMono = Geist_Mono({
+const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
 
-export const nunito = Nunito({
+const nunito = Nunito({
   subsets: ["latin"],
   variable: "--font-nunito",
   weight: ["400", "600", "700", "800"], // Pick the weights you need
 });
 
-export const anton = Anton({
+const anton = Anton({
   subsets: ["latin"],
   weight: ["400"],
   variable: "--font-anton",
