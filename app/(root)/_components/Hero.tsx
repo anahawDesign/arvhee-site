@@ -8,9 +8,9 @@ const Hero = () => (
     id="home"
     className="relative h-[70vh] flex items-center justify-center overflow-hidden"
   >
-    <div className="absolute inset-0 z-10 bg-[rgba(77,63,93,0.62)] pointer-events-none" />
+    <div className="absolute inset-0 z-10  pointer-events-none" />
     <Image
-      src="/arvhee-hero.png"
+      src="/arvhee-hero-3.png"
       alt="Filipino bakery storefront"
       fill
       className="object-cover"
@@ -21,16 +21,16 @@ const Hero = () => (
       className="relative z-20 text-center px-4 max-w-4xl"
       style={{ color: "var(--color-background)" }}
     >
-      <h2 className="text-4xl md:text-6xl font-bold mb-4 leading-tight drop-shadow-[0_2px_8px_rgba(0,0,0,0.35)]">
+      <h2 className=" text-4xl md:text-6xl mb-4 leading-tight text-[var(--color-accent)]">
         Freshly Baked Filipino Favourites in London
       </h2>
-      <p className="text-lg md:text-xl mb-8 opacity-90">
+      <p className="text-lg font-light md:text-xl mb-8 opacity-90 text-[var(--color-primary)]">
         Bringing the warmth of a traditional panaderia to your neighborhood
       </p>
       <div className="flex flex-col sm:flex-row gap-4 justify-center">
         <Button
           size="lg"
-          className="font-semibold bg-[var(--color-accent)] text-[var(--color-secondary)]
+          className="font-bold bg-[var(--color-accent)] text-[var(--color-secondary)]
             hover:bg-[var(--color-secondary)] hover:text-[var(--color-accent)] "
         >
           Order Now
@@ -38,7 +38,7 @@ const Hero = () => (
         <Button
           size="lg"
           variant="outline"
-          className="border border-white bg-white text-[var(--color-accent)] hover:text-[var(--color-secondary)] font-semibold"
+          className="border border-white bg-white  text-[var(--color-accent)] hover:text-[var(--color-secondary)] font-bold"
         >
           View Menu
         </Button>

@@ -20,7 +20,7 @@ const FeaturedProducts = () => (
               alt={product.name}
               width={220}
               height={220}
-              className="mb-4 object-contain rounded-xl shadow-sm"
+              className="mb-4 object-contain"
             />
             <span className="inline-block px-3 py-1 mb-2 rounded-full text-xs font-bold bg-[var(--color-accent)] text-[var(--color-secondary)]">
               {product.badge}

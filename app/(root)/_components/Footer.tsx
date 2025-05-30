@@ -29,8 +29,8 @@ const Footer = () => (
         </div>
 
         <div className="max-w-xs  mx-auto w-full">
-          <h5 className="font-semibold mb-4">Quick Links</h5>
-          <ul className="space-y-2 text-[var(--color-text)]">
+          <h5 className=" mb-4">Quick Links</h5>
+          <ul className="footer-text space-y-2 text-[var(--color-text)]">
             <li>
               <Link href="#home" className="hover:text-[var(--color-accent)]">
                 Home
@@ -58,8 +58,8 @@ const Footer = () => (
         </div>
 
         <div className="max-w-xs  mx-auto w-full">
-          <h5 className="font-semibold mb-4">Categories</h5>
-          <ul className="space-y-2 text-[var(--color-text)]">
+          <h5 className=" mb-4">Categories</h5>
+          <ul className="footer-text space-y-2 text-[var(--color-text)]">
             <li>
               <Link href="#" className="hover:text-[var(--color-accent)]">
                 Sweet Treats
@@ -84,7 +84,7 @@ const Footer = () => (
         </div>
 
         <div className="max-w-xs  mx-auto w-full">
-          <h5 className="font-semibold mb-4">Connect</h5>
+          <h5 className=" mb-4">Connect</h5>
           <div className="flex space-x-4">
             <a
               href="https://www.instagram.com/arvhee_bakes/"
@@ -131,7 +131,7 @@ const Footer = () => (
 
       <Separator className="my-8 bg-[var(--color-accent)]/20" />
 
-      <div className="text-center text-[var(--color-text)]">
+      <div className="footer-text text-center text-[var(--color-text)]">
         <p>
           &copy; 2025 aRVhee Bakery. All rights reserved. Made with ❤️ in
           London.
