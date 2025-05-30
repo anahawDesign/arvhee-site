@@ -77,7 +77,7 @@ const VisitUs = () => (
               rel="noopener noreferrer"
               className="flex-1"
             >
-              <Button className="bg-[var(--color-accent)] hover:bg-[var(--color-primary)] text-[var(--color-secondary)] w-full">
+              <Button className=" bg-[var(--color-accent)] hover:bg-[var(--color-primary)] text-[var(--color-secondary)] w-full">
                 <Instagram className="w-4 h-4 mr-2" />
                 Follow Us
               </Button>

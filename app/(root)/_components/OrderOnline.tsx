@@ -18,19 +18,19 @@ const OrderOnline = () => (
       <div className="mb-8 flex flex-wrap gap-4 justify-center">
         <Button
           variant="outline"
-          className="border-[var(--color-accent)] text-[var(--color-accent)] hover:bg-[var(--color-accent)] hover:text-white"
+          className=" border-[var(--color-accent)] text-[var(--color-accent)] hover:bg-[var(--color-accent)] hover:text-white"
         >
           All Items
         </Button>
         <Button
           variant="outline"
-          className="border-[var(--color-primary)] text-[var(--color-primary)] hover:bg-[var(--color-primary)] hover:text-white"
+          className=" border-[var(--color-primary)] text-[var(--color-primary)] hover:bg-[var(--color-primary)] hover:text-white"
         >
           Sweet
         </Button>
         <Button
           variant="outline"
-          className="border-[var(--color-secondary)] text-[var(--color-secondary)] hover:bg-[var(--color-secondary)] hover:text-[var(--color-accent)]"
+          className=" border-[var(--color-secondary)] text-[var(--color-secondary)] hover:bg-[var(--color-secondary)] hover:text-[var(--color-accent)]"
         >
           Savory
         </Button>

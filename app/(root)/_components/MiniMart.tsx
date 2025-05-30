@@ -31,7 +31,7 @@ const MiniMart = () => (
               </span>
               <Button
                 size="sm"
-                className="bg-[var(--color-secondary)] hover:bg-[var(--color-primary)] text-[var(--color-accent)] w-full"
+                className=" bg-[var(--color-secondary)] hover:bg-[var(--color-primary)] text-[var(--color-accent)] w-full"
               >
                 Add
               </Button>
