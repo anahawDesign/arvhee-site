@@ -25,7 +25,7 @@ const FeaturedProducts = () => (
             <span className="inline-block px-3 py-1 mb-2 rounded-full text-xs font-bold bg-[var(--color-accent)] text-[var(--color-secondary)]">
               {product.badge}
             </span>
-            <h4 className="text-lg font-semibold mb-2 text-[var(--color-primary)]">
+            <h4 className=" text-lg font-semibold mb-2 text-[var(--color-primary)]">
               {product.name}
             </h4>
             <p className="text-sm text-[var(--color-text)] mb-2 text-center">

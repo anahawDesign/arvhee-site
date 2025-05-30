@@ -99,7 +99,17 @@ const VisitUs = () => (
 
         <div>
           <div className="bg-gray-200 rounded-lg h-64 md:h-full flex items-center justify-center">
-            <p className="text-gray-500">Interactive Map Placeholder</p>
+            <iframe
+              title="Bakery Location"
+              width="100%"
+              height="100%"
+              className="rounded-lg"
+              style={{ border: 0, minHeight: "256px" }}
+              loading="lazy"
+              allowFullScreen
+              referrerPolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=2a+Jutland+Rd,+London+E13+8HZ&output=embed"
+            />
           </div>
         </div>
       </div>

@@ -23,7 +23,7 @@ const Hero = () => (
       style={{ color: "var(--color-background)" }}
     >
       <h2
-        className={` text-4xl md:text-6xl mb-4 leading-tight tracking-normal text-[var(--color-accent)]`}
+        className={` text-4xl md:text-6xl mb-4 leading-tight text-[var(--color-accent)]`}
       >
         Freshly Baked Filipino Favourites in London
       </h2>

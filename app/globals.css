@@ -157,10 +157,12 @@ body {
   }
   h1,
   h2,
-  h3 {
+  h3,
+  h4,
+  h5 {
     font-family: var(--font-anton);
     font-weight: 800;
-    letter-spacing: -0.01em;
+    letter-spacing: 0.04em;
   }
   .heading-nunito {
     font-family: var(--font-nunito), var(--font-sans), sans-serif;
