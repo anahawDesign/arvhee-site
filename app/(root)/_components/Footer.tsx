@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { Instagram, Facebook } from "lucide-react";
 import Image from "next/image";
+import TikTokIcon from "@/components/ui/tiktokicon";
 
 const Footer = () => (
   <footer className="bg-[var(--color-background)] text-[var(--color-accent)] py-12 px-4 border-t-2 border-[var(--color-secondary)]">
@@ -86,7 +87,7 @@ const Footer = () => (
           <h5 className="font-semibold mb-4">Connect</h5>
           <div className="flex space-x-4">
             <a
-              href="https://www.facebook.com/people/ArVhee-Bakes/100063446330479/?locale=cs_CZ"
+              href="https://www.instagram.com/arvhee_bakes/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -99,7 +100,7 @@ const Footer = () => (
               </Button>
             </a>
             <a
-              href="https://www.facebook.com/people/ArVhee-Bakes/100063446330479/?locale=cs_CZ"
+              href="https://www.facebook.com/p/ArVhee-Bakes-100063446330479/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -109,6 +110,19 @@ const Footer = () => (
                 className="text-[var(--color-accent)] hover:bg-[var(--color-accent)]/10"
               >
                 <Facebook className="w-4 h-4" />
+              </Button>
+            </a>
+            <a
+              href="https://www.tiktok.com/@arvhee_bakes"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button
+                size="sm"
+                variant="ghost"
+                className="text-[var(--color-accent)] hover:bg-[var(--color-accent)]/10"
+              >
+                <TikTokIcon className="w-4 h-4" />
               </Button>
             </a>
           </div>

@@ -63,7 +63,7 @@ const VisitUs = () => (
                   </h4>
                   <p className="text-[var(--color-text)]"> +44 20 1234 5678</p>
                   <p className="text-[var(--color-text)]">
-                    hello@kamayanbakery.co.uk
+                    aRVhee.info@gmail.com
                   </p>
                 </div>
               </div>

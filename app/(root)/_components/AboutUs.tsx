@@ -10,9 +10,9 @@ const AboutUs = () => (
             A Slice of Home in London
           </h3>
           <p className="text-[var(--color-text)] text-lg mb-6 leading-relaxed">
-            Welcome to Kamayan Bakery, where every bite tells a story of
-            Filipino heritage and tradition. Our family-owned panaderia brings
-            the authentic taste of the Philippines to London, using time-honored
+            Welcome to aRVhee Bakery, where every bite tells a story of Filipino
+            heritage and tradition. Our family-owned panaderia brings the
+            authentic taste of the Philippines to London, using time-honored
             recipes passed down through generations.
           </p>
           <p className="text-[var(--color-text)] text-lg mb-6 leading-relaxed">
